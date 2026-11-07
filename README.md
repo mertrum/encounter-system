@@ -23,6 +23,21 @@ The module is system-neutral and is verified for Foundry VTT v14. It does not
 require a particular game system. The included tables are fantasy-themed and
 can be edited or replaced in the world after installation.
 
-The supplied export contains the current state of the tables, including the full downloaded Stay Small, Stay medium, and Stay Large night tables. In particular,
-the exported Forest tables are empty and Marsh, Hills, and Mountains tables
-were not present in the export; this package does not invent entries for them.
+The package includes Road, River, Forest, Marsh, Hills, Mountains, and Jungle
+day/night tables. Wilderness terrain uses six checks per day: Morning, Late
+Morning, Late Afternoon, Evening Watch, Night Watch, and Deepest Night. Road
+and River keep the standard Morning, Afternoon, and Night schedule.
+
+The generator first asks for the route: Road, River, or Wilderness. Road and
+River then offer an optional terrain through which the route passes. When
+selected, a successful route encounter uses the matching terrain table 20% of
+the time; the other 80% uses the Road or River table. Wilderness then asks for
+Forest, Marsh, Hills, Mountains, or Jungle and remains pure terrain travel.
+Weather is evaluated separately for every travel period, using the selected
+environment and season. Conditions normally continue from the previous period
+(75% continuation); the first period of each day always rolls fresh weather.
+The normal Distance, Awareness, and Motivation Reaction tables still resolve
+every tagged encounter. The package also
+installs the three campaign reference journals:
+Encounter System — How to Use & Extend, WFRP Road Travel & Mount Fatigue, and
+WFRP River Travel & Settlement Stops.
