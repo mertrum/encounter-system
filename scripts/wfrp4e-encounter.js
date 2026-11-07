@@ -6,11 +6,22 @@
 
 const MODULE_ID = "encounter-system";
 const TABLE_DATA = "modules/encounter-system/data/tables.json";
+const TERRAIN_TABLE_MANIFEST = "modules/encounter-system/data/terrain-tables.json";
+const JOURNAL_DATA = "modules/encounter-system/data/journals.json";
 const MACRO_DATA = "modules/encounter-system/data/macro.json";
+const MACRO_CODE = "modules/encounter-system/data/macro.js";
 const FOLDER_NAME = "Encounter System";
 const LEGACY_FOLDER_NAME = "WFRP4e Encounter System";
 const MACRO_NAME = "Encounter Generator";
 const LEGACY_MACRO_NAME = "Empire Encounter Generator";
+const MACRO_VERSION = 11;
+const WILDERNESS_TABLE_NAMES = [
+  "Forest Day", "Forest Night",
+  "Marsh Day", "Marsh Night",
+  "Hills Day", "Hills Night",
+  "Mountains Day", "Mountains Night",
+  "Jungle Day", "Jungle Night"
+];
 let lastLaunch = 0;
 
 function cleanTableForWorld(source, folderId) {
@@ -33,12 +44,34 @@ function cleanResults(results) {
   });
 }
 
+function cleanJournalForWorld(source) {
+  const journal = foundry.utils.deepClone(source);
+  delete journal._id;
+  delete journal._stats;
+  delete journal.sort;
+  journal.pages = (journal.pages ?? []).map(page => {
+    const cleaned = foundry.utils.deepClone(page);
+    delete cleaned._id;
+    delete cleaned._stats;
+    return cleaned;
+  });
+  return journal;
+}
+
 async function installEncounterContent() {
   if (!game.user.isGM) return;
 
   const response = await fetch(TABLE_DATA);
   if (!response.ok) throw new Error(`Could not load ${TABLE_DATA}`);
   const tables = await response.json();
+  const terrainManifestResponse = await fetch(TERRAIN_TABLE_MANIFEST);
+  if (!terrainManifestResponse.ok) throw new Error(`Could not load ${TERRAIN_TABLE_MANIFEST}`);
+  const terrainFiles = await terrainManifestResponse.json();
+  for (const file of terrainFiles) {
+    const terrainResponse = await fetch(`modules/encounter-system/data/terrain/${file}`);
+    if (!terrainResponse.ok) throw new Error(`Could not load terrain table ${file}`);
+    tables.push(await terrainResponse.json());
+  }
 
   let folder = game.folders.find(f => f.type === "RollTable" && f.name === FOLDER_NAME);
   const legacyFolder = game.folders.find(f => f.type === "RollTable" && f.name === LEGACY_FOLDER_NAME);
@@ -56,8 +89,12 @@ async function installEncounterContent() {
       // the old export. Upgrade only those short placeholders; never replace
       // a table which already contains a full/custom result set.
       const isSettlement = source.name.startsWith("Stay ");
+      const isTerrain = WILDERNESS_TABLE_NAMES.includes(source.name);
       const currentCount = existing.results?.size ?? existing.results?.length ?? 0;
-      if (isSettlement && currentCount <= 4 && (source.results?.length ?? 0) > currentCount) {
+      const shouldUpgrade =
+        (isSettlement && currentCount <= 4) ||
+        (isTerrain && currentCount === 0);
+      if (shouldUpgrade && (source.results?.length ?? 0) > currentCount) {
         await existing.update({
           formula: source.formula,
           replacement: source.replacement,
@@ -70,9 +107,22 @@ async function installEncounterContent() {
     await RollTable.create(cleanTableForWorld(source, folder.id));
   }
 
+  const journalResponse = await fetch(JOURNAL_DATA);
+  if (!journalResponse.ok) throw new Error(`Could not load ${JOURNAL_DATA}`);
+  const journals = await journalResponse.json();
+  for (const source of journals) {
+    if (game.journal.getName(source.name)) continue;
+    await JournalEntry.create(cleanJournalForWorld(source));
+  }
+
   const macroResponse = await fetch(MACRO_DATA);
   if (!macroResponse.ok) throw new Error(`Could not load ${MACRO_DATA}`);
   const sourceMacro = await macroResponse.json();
+  const macroCodeResponse = await fetch(MACRO_CODE);
+  if (!macroCodeResponse.ok) throw new Error(`Could not load ${MACRO_CODE}`);
+  sourceMacro.command = await macroCodeResponse.text();
+  sourceMacro.flags ??= {};
+  sourceMacro.flags[MODULE_ID] = {macroVersion: MACRO_VERSION};
   let macro = game.macros.getName(MACRO_NAME);
   const legacyMacro = game.macros.getName(LEGACY_MACRO_NAME);
   if (!macro && legacyMacro) {
@@ -85,6 +135,14 @@ async function installEncounterContent() {
     delete data.folder;
     data.ownership = {default: CONST.DOCUMENT_OWNERSHIP_LEVELS.OWNER};
     macro = await Macro.create(data);
+  } else if (macro.flags?.[MODULE_ID]?.macroVersion !== MACRO_VERSION) {
+    await macro.update({
+      command: sourceMacro.command,
+      flags: {
+        ...(macro.flags ?? {}),
+        [MODULE_ID]: {macroVersion: MACRO_VERSION}
+      }
+    });
   }
 
   game.settings.set(MODULE_ID, "installed", true);
