@@ -1,0 +1,1415 @@
+{
+  "name": "Jungle Night",
+  "_id": "JnglNgtTable0002",
+  "img": "icons/svg/d20-black.svg",
+  "description": "Jungle Night encounters. Each result is a Warhammer fantasy jungle subject or group; the system determines distance, awareness and reaction from the tags.",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "JnglN2R000000001",
+      "name": "A shadow jungle spirit (Small, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "JnglN2R000000002",
+      "name": "A group of shadow jungle spirits (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "JnglN2R000000003",
+      "name": "A giant frog (Small, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "JnglN2R000000004",
+      "name": "A group of giant frogs (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "JnglN2R000000005",
+      "name": "A giant constrictor serpent (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "JnglN2R000000006",
+      "name": "A pair of giant constrictor serpents (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "JnglN2R000000007",
+      "name": "A giant crocodile (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "JnglN2R000000008",
+      "name": "A giant caiman (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "JnglN2R000000009",
+      "name": "A swarm of giant insects (Small, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "JnglN2R000000010",
+      "name": "A giant centipede colony (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "JnglN2R000000011",
+      "name": "A giant scorpion (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "JnglN2R000000012",
+      "name": "A giant spider (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "_id": "JnglN2R000000013",
+      "name": "A spider brood (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "_id": "JnglN2R000000014",
+      "name": "A giant wasp colony (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "_id": "JnglN2R000000015",
+      "name": "A jungle hydra (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "_id": "JnglN2R000000016",
+      "name": "A Skink scout (Small, Indifferent, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "_id": "JnglN2R000000017",
+      "name": "A Skink group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "_id": "JnglN2R000000018",
+      "name": "A Skink cohort (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "_id": "JnglN2R000000019",
+      "name": "A Skink priest (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "_id": "JnglN2R000000020",
+      "name": "A Saurus warrior (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "_id": "JnglN2R000000021",
+      "name": "A Saurus group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "_id": "JnglN2R000000022",
+      "name": "A Saurus warband (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "_id": "JnglN2R000000023",
+      "name": "A Temple Guard group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "_id": "JnglN2R000000024",
+      "name": "A Kroxigor (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "_id": "JnglN2R000000025",
+      "name": "A Kroxigor group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "_id": "JnglN2R000000026",
+      "name": "A Chameleon Skink group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "_id": "JnglN2R000000027",
+      "name": "A group of Terradon riders (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "_id": "JnglN2R000000028",
+      "name": "A group of Ripperdactyl riders (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "_id": "JnglN2R000000029",
+      "name": "A Stegadon (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "_id": "JnglN2R000000030",
+      "name": "A Bastiladon (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "_id": "JnglN2R000000031",
+      "name": "A Razordon group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "_id": "JnglN2R000000032",
+      "name": "A Salamander group (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "_id": "JnglN2R000000033",
+      "name": "An ancient Stegadon (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "_id": "JnglN2R000000034",
+      "name": "A Slann mage-priest (Large, Hostile, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "_id": "JnglN2R000000035",
+      "name": "A jungle goblin scout (Small, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "_id": "JnglN2R000000036",
+      "name": "A jungle goblin group (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "_id": "JnglN2R000000037",
+      "name": "A goblin warband (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "_id": "JnglN2R000000038",
+      "name": "A night goblin group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "_id": "JnglN2R000000039",
+      "name": "A spider squig group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        40,
+        40
+      ],
+      "_id": "JnglN2R000000040",
+      "name": "A goblin shaman (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "_id": "JnglN2R000000041",
+      "name": "A hobgoblin warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "_id": "JnglN2R000000042",
+      "name": "A Savage Orc scout (Small, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "_id": "JnglN2R000000043",
+      "name": "A Savage Orc group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "_id": "JnglN2R000000044",
+      "name": "A Savage Orc warband (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "_id": "JnglN2R000000045",
+      "name": "A greenskin warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "_id": "JnglN2R000000046",
+      "name": "An ogre (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        47
+      ],
+      "_id": "JnglN2R000000047",
+      "name": "An ogre group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        48,
+        48
+      ],
+      "_id": "JnglN2R000000048",
+      "name": "A troll (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        49
+      ],
+      "_id": "JnglN2R000000049",
+      "name": "A troll warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        50,
+        50
+      ],
+      "_id": "JnglN2R000000050",
+      "name": "A Fimir group (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "_id": "JnglN2R000000051",
+      "name": "A Fimir warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "_id": "JnglN2R000000052",
+      "name": "A Skaven group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "_id": "JnglN2R000000053",
+      "name": "A Skaven warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "_id": "JnglN2R000000054",
+      "name": "A Skaven warlock (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "_id": "JnglN2R000000055",
+      "name": "A Grey Seer (Medium, Hostile, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "_id": "JnglN2R000000056",
+      "name": "A rat ogre (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        57
+      ],
+      "_id": "JnglN2R000000057",
+      "name": "A Beastman group (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        58,
+        58
+      ],
+      "_id": "JnglN2R000000058",
+      "name": "A Beastman warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        59,
+        59
+      ],
+      "_id": "JnglN2R000000059",
+      "name": "A Beastman shaman (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        60,
+        60
+      ],
+      "_id": "JnglN2R000000060",
+      "name": "A group of centigors (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "_id": "JnglN2R000000061",
+      "name": "A minotaur (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "_id": "JnglN2R000000062",
+      "name": "A Dark Elf group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "_id": "JnglN2R000000063",
+      "name": "A Dark Elf warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "_id": "JnglN2R000000064",
+      "name": "A Dark Elf sorcerer (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "_id": "JnglN2R000000065",
+      "name": "A Chaos warrior group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "_id": "JnglN2R000000066",
+      "name": "A Chaos champion (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        67
+      ],
+      "_id": "JnglN2R000000067",
+      "name": "A Chaos sorcerer (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        68,
+        68
+      ],
+      "_id": "JnglN2R000000068",
+      "name": "A Chaos spawn (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        69
+      ],
+      "_id": "JnglN2R000000069",
+      "name": "A daemon of the jungle (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        70,
+        70
+      ],
+      "_id": "JnglN2R000000070",
+      "name": "A Plaguebearer (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        71
+      ],
+      "_id": "JnglN2R000000071",
+      "name": "An undead group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        72,
+        72
+      ],
+      "_id": "JnglN2R000000072",
+      "name": "A skeleton group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        73
+      ],
+      "_id": "JnglN2R000000073",
+      "name": "A zombie group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        74,
+        74
+      ],
+      "_id": "JnglN2R000000074",
+      "name": "A ghoul group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        75
+      ],
+      "_id": "JnglN2R000000075",
+      "name": "A wraith (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        76,
+        76
+      ],
+      "_id": "JnglN2R000000076",
+      "name": "A vampire (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        77
+      ],
+      "_id": "JnglN2R000000077",
+      "name": "A necromancer (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        78,
+        78
+      ],
+      "_id": "JnglN2R000000078",
+      "name": "A giant carnivorous plant (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        79
+      ],
+      "_id": "JnglN2R000000079",
+      "name": "A strangler vine colony (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        80,
+        80
+      ],
+      "_id": "JnglN2R000000080",
+      "name": "A giant pitcher plant (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        81
+      ],
+      "_id": "JnglN2R000000081",
+      "name": "An ancient jungle treant (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        82,
+        82
+      ],
+      "_id": "JnglN2R000000082",
+      "name": "A treant group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        83,
+        83
+      ],
+      "_id": "JnglN2R000000083",
+      "name": "A giant mushroom colony (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        84,
+        84
+      ],
+      "_id": "JnglN2R000000084",
+      "name": "A spore servant group (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        85
+      ],
+      "_id": "JnglN2R000000085",
+      "name": "A jungle dragon (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        86,
+        86
+      ],
+      "_id": "JnglN2R000000086",
+      "name": "A wyvern (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        87,
+        87
+      ],
+      "_id": "JnglN2R000000087",
+      "name": "A Coatl (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        88,
+        88
+      ],
+      "_id": "JnglN2R000000088",
+      "name": "A Carnosaur (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        89
+      ],
+      "_id": "JnglN2R000000089",
+      "name": "A Dread Saurian (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        90,
+        90
+      ],
+      "_id": "JnglN2R000000090",
+      "name": "A jungle titan (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        91
+      ],
+      "_id": "JnglN2R000000091",
+      "name": "A great jungle horror (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        92,
+        92
+      ],
+      "_id": "JnglN2R000000092",
+      "name": "A shadow beast (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        93
+      ],
+      "_id": "JnglN2R000000093",
+      "name": "A jungle daemon (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        94,
+        94
+      ],
+      "_id": "JnglN2R000000094",
+      "name": "An undead warband (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        95,
+        95
+      ],
+      "_id": "JnglN2R000000095",
+      "name": "A Temple Guard champion with followers (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        96,
+        96
+      ],
+      "_id": "JnglN2R000000096",
+      "name": "A Saurus Oldblood with a cohort (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        97
+      ],
+      "_id": "JnglN2R000000097",
+      "name": "A Skink chief with attendants (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        98,
+        98
+      ],
+      "_id": "JnglN2R000000098",
+      "name": "A Slann mage-priest with Temple Guard (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        99
+      ],
+      "_id": "JnglN2R000000099",
+      "name": "A giant jungle serpent (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "_id": "JnglN2R000000100",
+      "name": "An ancient jungle hydra (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "formula": "1d100"
+}

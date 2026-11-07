@@ -9628,5 +9628,2817 @@
       "hA3srlFoDba8ZYIJ": 3
     },
     "formula": "1d79"
+  },
+  {
+    "_id": "WRoaSprWx",
+    "name": "Weather Table - Road - Spring",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRoaSpr01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSpr02",
+        "type": "text",
+        "range": [
+          21,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSpr03",
+        "type": "text",
+        "range": [
+          41,
+          70
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Light rain",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSpr04",
+        "type": "text",
+        "range": [
+          71,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSpr05",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSpr06",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal road weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1001
+  },
+  {
+    "_id": "WRoaSumWx",
+    "name": "Weather Table - Road - Summer",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRoaSum01",
+        "type": "text",
+        "range": [
+          1,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSum02",
+        "type": "text",
+        "range": [
+          36,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Hot and dry",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSum03",
+        "type": "text",
+        "range": [
+          56,
+          70
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSum04",
+        "type": "text",
+        "range": [
+          71,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSum05",
+        "type": "text",
+        "range": [
+          86,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WRoaSum06",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal road weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1002
+  },
+  {
+    "_id": "WRoaAutWx",
+    "name": "Weather Table - Road - Autumn",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRoaAut01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WRoaAut02",
+        "type": "text",
+        "range": [
+          16,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRoaAut03",
+        "type": "text",
+        "range": [
+          41,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Light rain",
+        "name": ""
+      },
+      {
+        "_id": "WRoaAut04",
+        "type": "text",
+        "range": [
+          66,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRoaAut05",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WRoaAut06",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal road weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1003
+  },
+  {
+    "_id": "WRoaWinWx",
+    "name": "Weather Table - Road - Winter",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRoaWin01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WRoaWin02",
+        "type": "text",
+        "range": [
+          21,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRoaWin03",
+        "type": "text",
+        "range": [
+          41,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRoaWin04",
+        "type": "text",
+        "range": [
+          56,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WRoaWin05",
+        "type": "text",
+        "range": [
+          81,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Sleet",
+        "name": ""
+      },
+      {
+        "_id": "WRoaWin06",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Heavy snow",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal road weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1004
+  },
+  {
+    "_id": "WRivSprWx",
+    "name": "Weather Table - River - Spring",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRivSpr01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "River mist",
+        "name": ""
+      },
+      {
+        "_id": "WRivSpr02",
+        "type": "text",
+        "range": [
+          16,
+          30
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WRivSpr03",
+        "type": "text",
+        "range": [
+          31,
+          50
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRivSpr04",
+        "type": "text",
+        "range": [
+          51,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRivSpr05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WRivSpr06",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal river weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1005
+  },
+  {
+    "_id": "WRivSumWx",
+    "name": "Weather Table - River - Summer",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRivSum01",
+        "type": "text",
+        "range": [
+          1,
+          10
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "River mist",
+        "name": ""
+      },
+      {
+        "_id": "WRivSum02",
+        "type": "text",
+        "range": [
+          11,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WRivSum03",
+        "type": "text",
+        "range": [
+          41,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Hot and bright",
+        "name": ""
+      },
+      {
+        "_id": "WRivSum04",
+        "type": "text",
+        "range": [
+          56,
+          70
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRivSum05",
+        "type": "text",
+        "range": [
+          71,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRivSum06",
+        "type": "text",
+        "range": [
+          86,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WRivSum07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal river weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1006
+  },
+  {
+    "_id": "WRivAutWx",
+    "name": "Weather Table - River - Autumn",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRivAut01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "River fog",
+        "name": ""
+      },
+      {
+        "_id": "WRivAut02",
+        "type": "text",
+        "range": [
+          16,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRivAut03",
+        "type": "text",
+        "range": [
+          41,
+          70
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRivAut04",
+        "type": "text",
+        "range": [
+          71,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WRivAut05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WRivAut06",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal river weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1007
+  },
+  {
+    "_id": "WRivWinWx",
+    "name": "Weather Table - River - Winter",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WRivWin01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "River fog",
+        "name": ""
+      },
+      {
+        "_id": "WRivWin02",
+        "type": "text",
+        "range": [
+          16,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WRivWin03",
+        "type": "text",
+        "range": [
+          36,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WRivWin04",
+        "type": "text",
+        "range": [
+          56,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WRivWin05",
+        "type": "text",
+        "range": [
+          66,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WRivWin06",
+        "type": "text",
+        "range": [
+          86,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Sleet",
+        "name": ""
+      },
+      {
+        "_id": "WRivWin07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal river weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1008
+  },
+  {
+    "_id": "WForSprWx",
+    "name": "Weather Table - Forest - Spring",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WForSpr01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WForSpr02",
+        "type": "text",
+        "range": [
+          16,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WForSpr03",
+        "type": "text",
+        "range": [
+          36,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Light rain",
+        "name": ""
+      },
+      {
+        "_id": "WForSpr04",
+        "type": "text",
+        "range": [
+          66,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WForSpr05",
+        "type": "text",
+        "range": [
+          86,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WForSpr06",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal forest weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1009
+  },
+  {
+    "_id": "WForSumWx",
+    "name": "Weather Table - Forest - Summer",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WForSum01",
+        "type": "text",
+        "range": [
+          1,
+          25
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WForSum02",
+        "type": "text",
+        "range": [
+          26,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Humid",
+        "name": ""
+      },
+      {
+        "_id": "WForSum03",
+        "type": "text",
+        "range": [
+          41,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WForSum04",
+        "type": "text",
+        "range": [
+          56,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WForSum05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WForSum06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WForSum07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal forest weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1010
+  },
+  {
+    "_id": "WForAutWx",
+    "name": "Weather Table - Forest - Autumn",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WForAut01",
+        "type": "text",
+        "range": [
+          1,
+          10
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WForAut02",
+        "type": "text",
+        "range": [
+          11,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WForAut03",
+        "type": "text",
+        "range": [
+          36,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WForAut04",
+        "type": "text",
+        "range": [
+          66,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WForAut05",
+        "type": "text",
+        "range": [
+          76,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      },
+      {
+        "_id": "WForAut06",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal forest weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1011
+  },
+  {
+    "_id": "WForWinWx",
+    "name": "Weather Table - Forest - Winter",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WForWin01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WForWin02",
+        "type": "text",
+        "range": [
+          21,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WForWin03",
+        "type": "text",
+        "range": [
+          41,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Frost",
+        "name": ""
+      },
+      {
+        "_id": "WForWin04",
+        "type": "text",
+        "range": [
+          56,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WForWin05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Sleet",
+        "name": ""
+      },
+      {
+        "_id": "WForWin06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Heavy snow",
+        "name": ""
+      },
+      {
+        "_id": "WForWin07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fog",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal forest weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1012
+  },
+  {
+    "_id": "WMarSprWx",
+    "name": "Weather Table - Marsh - Spring",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMarSpr01",
+        "type": "text",
+        "range": [
+          1,
+          25
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Marsh fog",
+        "name": ""
+      },
+      {
+        "_id": "WMarSpr02",
+        "type": "text",
+        "range": [
+          26,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WMarSpr03",
+        "type": "text",
+        "range": [
+          41,
+          70
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WMarSpr04",
+        "type": "text",
+        "range": [
+          71,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WMarSpr05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WMarSpr06",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal marsh weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1013
+  },
+  {
+    "_id": "WMarSumWx",
+    "name": "Weather Table - Marsh - Summer",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMarSum01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Marsh fog",
+        "name": ""
+      },
+      {
+        "_id": "WMarSum02",
+        "type": "text",
+        "range": [
+          21,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Humid",
+        "name": ""
+      },
+      {
+        "_id": "WMarSum03",
+        "type": "text",
+        "range": [
+          41,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Hot and still",
+        "name": ""
+      },
+      {
+        "_id": "WMarSum04",
+        "type": "text",
+        "range": [
+          56,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WMarSum05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WMarSum06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WMarSum07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal marsh weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1014
+  },
+  {
+    "_id": "WMarAutWx",
+    "name": "Weather Table - Marsh - Autumn",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMarAut01",
+        "type": "text",
+        "range": [
+          1,
+          25
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Marsh fog",
+        "name": ""
+      },
+      {
+        "_id": "WMarAut02",
+        "type": "text",
+        "range": [
+          26,
+          45
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WMarAut03",
+        "type": "text",
+        "range": [
+          46,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WMarAut04",
+        "type": "text",
+        "range": [
+          76,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WMarAut05",
+        "type": "text",
+        "range": [
+          86,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold mist",
+        "name": ""
+      },
+      {
+        "_id": "WMarAut06",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal marsh weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1015
+  },
+  {
+    "_id": "WMarWinWx",
+    "name": "Weather Table - Marsh - Winter",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMarWin01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Marsh fog",
+        "name": ""
+      },
+      {
+        "_id": "WMarWin02",
+        "type": "text",
+        "range": [
+          16,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WMarWin03",
+        "type": "text",
+        "range": [
+          41,
+          60
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Frost",
+        "name": ""
+      },
+      {
+        "_id": "WMarWin04",
+        "type": "text",
+        "range": [
+          61,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Sleet",
+        "name": ""
+      },
+      {
+        "_id": "WMarWin05",
+        "type": "text",
+        "range": [
+          76,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WMarWin06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Freezing rain",
+        "name": ""
+      },
+      {
+        "_id": "WMarWin07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal marsh weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1016
+  },
+  {
+    "_id": "WHilSprWx",
+    "name": "Weather Table - Hills - Spring",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WHilSpr01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WHilSpr02",
+        "type": "text",
+        "range": [
+          21,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WHilSpr03",
+        "type": "text",
+        "range": [
+          41,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WHilSpr04",
+        "type": "text",
+        "range": [
+          66,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WHilSpr05",
+        "type": "text",
+        "range": [
+          76,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      },
+      {
+        "_id": "WHilSpr06",
+        "type": "text",
+        "range": [
+          86,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      },
+      {
+        "_id": "WHilSpr07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal hills weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1017
+  },
+  {
+    "_id": "WHilSumWx",
+    "name": "Weather Table - Hills - Summer",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WHilSum01",
+        "type": "text",
+        "range": [
+          1,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WHilSum02",
+        "type": "text",
+        "range": [
+          36,
+          50
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Hot and dry",
+        "name": ""
+      },
+      {
+        "_id": "WHilSum03",
+        "type": "text",
+        "range": [
+          51,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WHilSum04",
+        "type": "text",
+        "range": [
+          66,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WHilSum05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WHilSum06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      },
+      {
+        "_id": "WHilSum07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal hills weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1018
+  },
+  {
+    "_id": "WHilAutWx",
+    "name": "Weather Table - Hills - Autumn",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WHilAut01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WHilAut02",
+        "type": "text",
+        "range": [
+          16,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WHilAut03",
+        "type": "text",
+        "range": [
+          41,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WHilAut04",
+        "type": "text",
+        "range": [
+          66,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WHilAut05",
+        "type": "text",
+        "range": [
+          76,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      },
+      {
+        "_id": "WHilAut06",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal hills weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1019
+  },
+  {
+    "_id": "WHilWinWx",
+    "name": "Weather Table - Hills - Winter",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WHilWin01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WHilWin02",
+        "type": "text",
+        "range": [
+          21,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WHilWin03",
+        "type": "text",
+        "range": [
+          36,
+          50
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Frost",
+        "name": ""
+      },
+      {
+        "_id": "WHilWin04",
+        "type": "text",
+        "range": [
+          51,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WHilWin05",
+        "type": "text",
+        "range": [
+          76,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Sleet",
+        "name": ""
+      },
+      {
+        "_id": "WHilWin06",
+        "type": "text",
+        "range": [
+          86,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Heavy snow",
+        "name": ""
+      },
+      {
+        "_id": "WHilWin07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal hills weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1020
+  },
+  {
+    "_id": "WMouSprWx",
+    "name": "Weather Table - Mountains - Spring",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMouSpr01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WMouSpr02",
+        "type": "text",
+        "range": [
+          21,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mountain mist",
+        "name": ""
+      },
+      {
+        "_id": "WMouSpr03",
+        "type": "text",
+        "range": [
+          41,
+          55
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WMouSpr04",
+        "type": "text",
+        "range": [
+          56,
+          70
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WMouSpr05",
+        "type": "text",
+        "range": [
+          71,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WMouSpr06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Sleet",
+        "name": ""
+      },
+      {
+        "_id": "WMouSpr07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal mountains weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1021
+  },
+  {
+    "_id": "WMouSumWx",
+    "name": "Weather Table - Mountains - Summer",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMouSum01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WMouSum02",
+        "type": "text",
+        "range": [
+          21,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Clear and cool",
+        "name": ""
+      },
+      {
+        "_id": "WMouSum03",
+        "type": "text",
+        "range": [
+          36,
+          50
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mountain mist",
+        "name": ""
+      },
+      {
+        "_id": "WMouSum04",
+        "type": "text",
+        "range": [
+          51,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WMouSum05",
+        "type": "text",
+        "range": [
+          66,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WMouSum06",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WMouSum07",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal mountains weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1022
+  },
+  {
+    "_id": "WMouAutWx",
+    "name": "Weather Table - Mountains - Autumn",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMouAut01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WMouAut02",
+        "type": "text",
+        "range": [
+          21,
+          40
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mountain mist",
+        "name": ""
+      },
+      {
+        "_id": "WMouAut03",
+        "type": "text",
+        "range": [
+          41,
+          60
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WMouAut04",
+        "type": "text",
+        "range": [
+          61,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WMouAut05",
+        "type": "text",
+        "range": [
+          76,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WMouAut06",
+        "type": "text",
+        "range": [
+          91,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Strong wind",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal mountains weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1023
+  },
+  {
+    "_id": "WMouWinWx",
+    "name": "Weather Table - Mountains - Winter",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WMouWin01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Cold",
+        "name": ""
+      },
+      {
+        "_id": "WMouWin02",
+        "type": "text",
+        "range": [
+          21,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mountain fog",
+        "name": ""
+      },
+      {
+        "_id": "WMouWin03",
+        "type": "text",
+        "range": [
+          36,
+          50
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Frost",
+        "name": ""
+      },
+      {
+        "_id": "WMouWin04",
+        "type": "text",
+        "range": [
+          51,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Snow",
+        "name": ""
+      },
+      {
+        "_id": "WMouWin05",
+        "type": "text",
+        "range": [
+          76,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Heavy snow",
+        "name": ""
+      },
+      {
+        "_id": "WMouWin06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Sleet",
+        "name": ""
+      },
+      {
+        "_id": "WMouWin07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Blizzard conditions",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal mountains weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1024
+  },
+  {
+    "_id": "WJunSprWx",
+    "name": "Weather Table - Jungle - Spring",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WJunSpr01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Humid",
+        "name": ""
+      },
+      {
+        "_id": "WJunSpr02",
+        "type": "text",
+        "range": [
+          21,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Hot and bright",
+        "name": ""
+      },
+      {
+        "_id": "WJunSpr03",
+        "type": "text",
+        "range": [
+          36,
+          50
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WJunSpr04",
+        "type": "text",
+        "range": [
+          51,
+          75
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WJunSpr05",
+        "type": "text",
+        "range": [
+          76,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WJunSpr06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WJunSpr07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal jungle weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1025
+  },
+  {
+    "_id": "WJunSumWx",
+    "name": "Weather Table - Jungle - Summer",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WJunSum01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Humid",
+        "name": ""
+      },
+      {
+        "_id": "WJunSum02",
+        "type": "text",
+        "range": [
+          21,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Hot and bright",
+        "name": ""
+      },
+      {
+        "_id": "WJunSum03",
+        "type": "text",
+        "range": [
+          36,
+          45
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WJunSum04",
+        "type": "text",
+        "range": [
+          46,
+          70
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WJunSum05",
+        "type": "text",
+        "range": [
+          71,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WJunSum06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WJunSum07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal jungle weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1026
+  },
+  {
+    "_id": "WJunAutWx",
+    "name": "Weather Table - Jungle - Autumn",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WJunAut01",
+        "type": "text",
+        "range": [
+          1,
+          20
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Humid",
+        "name": ""
+      },
+      {
+        "_id": "WJunAut02",
+        "type": "text",
+        "range": [
+          21,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WJunAut03",
+        "type": "text",
+        "range": [
+          36,
+          60
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WJunAut04",
+        "type": "text",
+        "range": [
+          61,
+          80
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WJunAut05",
+        "type": "text",
+        "range": [
+          81,
+          90
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      },
+      {
+        "_id": "WJunAut06",
+        "type": "text",
+        "range": [
+          91,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Mist",
+        "name": ""
+      },
+      {
+        "_id": "WJunAut07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal jungle weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1027
+  },
+  {
+    "_id": "WJunWinWx",
+    "name": "Weather Table - Jungle - Winter",
+    "img": "icons/svg/d20-black.svg",
+    "results": [
+      {
+        "_id": "WJunWin01",
+        "type": "text",
+        "range": [
+          1,
+          15
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Humid",
+        "name": ""
+      },
+      {
+        "_id": "WJunWin02",
+        "type": "text",
+        "range": [
+          16,
+          35
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Hot and bright",
+        "name": ""
+      },
+      {
+        "_id": "WJunWin03",
+        "type": "text",
+        "range": [
+          36,
+          50
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Fair",
+        "name": ""
+      },
+      {
+        "_id": "WJunWin04",
+        "type": "text",
+        "range": [
+          51,
+          65
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Overcast",
+        "name": ""
+      },
+      {
+        "_id": "WJunWin05",
+        "type": "text",
+        "range": [
+          66,
+          85
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Rain",
+        "name": ""
+      },
+      {
+        "_id": "WJunWin06",
+        "type": "text",
+        "range": [
+          86,
+          95
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Downpour",
+        "name": ""
+      },
+      {
+        "_id": "WJunWin07",
+        "type": "text",
+        "range": [
+          96,
+          100
+        ],
+        "drawn": false,
+        "img": "icons/svg/d20-black.svg",
+        "weight": 1,
+        "description": "Thunderstorm with heavy rain",
+        "name": ""
+      }
+    ],
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "description": "Seasonal jungle weather. Roll once for each travel period.",
+    "ownership": {
+      "default": 0
+    },
+    "sort": 1028
   }
 ]

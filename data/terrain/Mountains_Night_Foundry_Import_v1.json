@@ -1,0 +1,1415 @@
+{
+  "name": "Mountains Night",
+  "_id": "MtnsNgtTable0001",
+  "img": "icons/svg/d20-black.svg",
+  "description": "Mountains Night encounters. Each result is a fantasy subject or group; the system determines distance, awareness and reaction from the tags.",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "MtnsNRes00000001",
+      "name": "A cave spirit (Small, Indifferent, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "MtnsNRes00000002",
+      "name": "A group of cave spirits (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "MtnsNRes00000003",
+      "name": "A harpy (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "MtnsNRes00000004",
+      "name": "A harpy flock (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "MtnsNRes00000005",
+      "name": "A wyvern (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "MtnsNRes00000006",
+      "name": "A pair of wyverns (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "MtnsNRes00000007",
+      "name": "A mountain dragon (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "MtnsNRes00000008",
+      "name": "An ancient mountain dragon (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "MtnsNRes00000009",
+      "name": "A manticore (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "MtnsNRes00000010",
+      "name": "A pair of manticores (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "_id": "MtnsNRes00000011",
+      "name": "A chimera (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "_id": "MtnsNRes00000012",
+      "name": "A griffon (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "_id": "MtnsNRes00000013",
+      "name": "A giant spider (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "_id": "MtnsNRes00000014",
+      "name": "A spider brood (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "_id": "MtnsNRes00000015",
+      "name": "A giant cave scorpion (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "_id": "MtnsNRes00000016",
+      "name": "A giant cave centipede colony (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "_id": "MtnsNRes00000017",
+      "name": "A colony of giant cave beetles (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "_id": "MtnsNRes00000018",
+      "name": "A cave serpent (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "_id": "MtnsNRes00000019",
+      "name": "A mountain hydra (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "_id": "MtnsNRes00000020",
+      "name": "A rock elemental (Large, Indifferent, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "_id": "MtnsNRes00000021",
+      "name": "An air elemental (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "_id": "MtnsNRes00000022",
+      "name": "An earth elemental (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "_id": "MtnsNRes00000023",
+      "name": "A mountain spirit (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "_id": "MtnsNRes00000024",
+      "name": "A snow spirit (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "_id": "MtnsNRes00000025",
+      "name": "A thunder spirit (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "_id": "MtnsNRes00000026",
+      "name": "A stone guardian (Large, Hostile, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "_id": "MtnsNRes00000027",
+      "name": "A gargoyle (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "_id": "MtnsNRes00000028",
+      "name": "A gargoyle group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "_id": "MtnsNRes00000029",
+      "name": "A living avalanche (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        30,
+        30
+      ],
+      "_id": "MtnsNRes00000030",
+      "name": "A cave horror (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        31
+      ],
+      "_id": "MtnsNRes00000031",
+      "name": "A rock horror (Large, Hostile, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        32,
+        32
+      ],
+      "_id": "MtnsNRes00000032",
+      "name": "A crystal horror (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        33
+      ],
+      "_id": "MtnsNRes00000033",
+      "name": "A magma beast (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        34,
+        34
+      ],
+      "_id": "MtnsNRes00000034",
+      "name": "A frost beast (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        35,
+        35
+      ],
+      "_id": "MtnsNRes00000035",
+      "name": "A stone beast (Large, Hostile, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        36,
+        36
+      ],
+      "_id": "MtnsNRes00000036",
+      "name": "A mountain horror (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        37
+      ],
+      "_id": "MtnsNRes00000037",
+      "name": "A goblin scout (Small, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        38,
+        38
+      ],
+      "_id": "MtnsNRes00000038",
+      "name": "A goblin group (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        39,
+        39
+      ],
+      "_id": "MtnsNRes00000039",
+      "name": "A goblin warband (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        40,
+        40
+      ],
+      "_id": "MtnsNRes00000040",
+      "name": "A night goblin group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "_id": "MtnsNRes00000041",
+      "name": "A cave squig (Small, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        42,
+        42
+      ],
+      "_id": "MtnsNRes00000042",
+      "name": "A group of cave squigs (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        43,
+        43
+      ],
+      "_id": "MtnsNRes00000043",
+      "name": "A giant cave squig (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        44,
+        44
+      ],
+      "_id": "MtnsNRes00000044",
+      "name": "A goblin shaman (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        45
+      ],
+      "_id": "MtnsNRes00000045",
+      "name": "A hobgoblin group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        46,
+        46
+      ],
+      "_id": "MtnsNRes00000046",
+      "name": "A hobgoblin warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        47
+      ],
+      "_id": "MtnsNRes00000047",
+      "name": "A group of goblin spider riders (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        48,
+        48
+      ],
+      "_id": "MtnsNRes00000048",
+      "name": "A snotling group (Small, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        49
+      ],
+      "_id": "MtnsNRes00000049",
+      "name": "An Orc scout (Small, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        50,
+        50
+      ],
+      "_id": "MtnsNRes00000050",
+      "name": "An Orc group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        51
+      ],
+      "_id": "MtnsNRes00000051",
+      "name": "An Orc warband (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        52,
+        52
+      ],
+      "_id": "MtnsNRes00000052",
+      "name": "An ogre (Large, Indifferent, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        53
+      ],
+      "_id": "MtnsNRes00000053",
+      "name": "An ogre group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        54,
+        54
+      ],
+      "_id": "MtnsNRes00000054",
+      "name": "An ogre mage (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        55
+      ],
+      "_id": "MtnsNRes00000055",
+      "name": "A hill troll (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        56,
+        56
+      ],
+      "_id": "MtnsNRes00000056",
+      "name": "A troll group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        57
+      ],
+      "_id": "MtnsNRes00000057",
+      "name": "A troll shaman (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        58,
+        58
+      ],
+      "_id": "MtnsNRes00000058",
+      "name": "A troll warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        59,
+        59
+      ],
+      "_id": "MtnsNRes00000059",
+      "name": "A stone giant (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        60,
+        60
+      ],
+      "_id": "MtnsNRes00000060",
+      "name": "A hill giant (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "_id": "MtnsNRes00000061",
+      "name": "A frost giant (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "_id": "MtnsNRes00000062",
+      "name": "A Chaos giant (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "_id": "MtnsNRes00000063",
+      "name": "A Dwarf group (Medium, Indifferent, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "_id": "MtnsNRes00000064",
+      "name": "A Dwarf warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "_id": "MtnsNRes00000065",
+      "name": "A Dwarf rune priest (Medium, Indifferent, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "_id": "MtnsNRes00000066",
+      "name": "A Slayer group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        67
+      ],
+      "_id": "MtnsNRes00000067",
+      "name": "A Skaven group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        68,
+        68
+      ],
+      "_id": "MtnsNRes00000068",
+      "name": "A Skaven warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        69
+      ],
+      "_id": "MtnsNRes00000069",
+      "name": "A Skaven warlock (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        70,
+        70
+      ],
+      "_id": "MtnsNRes00000070",
+      "name": "A Grey Seer (Medium, Hostile, Normal)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        71
+      ],
+      "_id": "MtnsNRes00000071",
+      "name": "A rat ogre (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        72,
+        72
+      ],
+      "_id": "MtnsNRes00000072",
+      "name": "A Beastman group (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        73
+      ],
+      "_id": "MtnsNRes00000073",
+      "name": "A Beastman warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        74,
+        74
+      ],
+      "_id": "MtnsNRes00000074",
+      "name": "A Beastman shaman (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        75
+      ],
+      "_id": "MtnsNRes00000075",
+      "name": "A group of centigors (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        76,
+        76
+      ],
+      "_id": "MtnsNRes00000076",
+      "name": "A minotaur (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        77
+      ],
+      "_id": "MtnsNRes00000077",
+      "name": "A Chaos warrior group (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        78,
+        78
+      ],
+      "_id": "MtnsNRes00000078",
+      "name": "A Chaos champion (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        79
+      ],
+      "_id": "MtnsNRes00000079",
+      "name": "A Chaos sorcerer (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        80,
+        80
+      ],
+      "_id": "MtnsNRes00000080",
+      "name": "A Chaos spawn (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        81
+      ],
+      "_id": "MtnsNRes00000081",
+      "name": "A daemon of stone (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        82,
+        82
+      ],
+      "_id": "MtnsNRes00000082",
+      "name": "A Plaguebearer (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        83,
+        83
+      ],
+      "_id": "MtnsNRes00000083",
+      "name": "A group of skeletons (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        84,
+        84
+      ],
+      "_id": "MtnsNRes00000084",
+      "name": "A group of wights (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        85
+      ],
+      "_id": "MtnsNRes00000085",
+      "name": "A wraith (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        86,
+        86
+      ],
+      "_id": "MtnsNRes00000086",
+      "name": "A vampire (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        87,
+        87
+      ],
+      "_id": "MtnsNRes00000087",
+      "name": "A necromancer (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        88,
+        88
+      ],
+      "_id": "MtnsNRes00000088",
+      "name": "A dark elf group (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        89
+      ],
+      "_id": "MtnsNRes00000089",
+      "name": "A dark elf sorcerer (Medium, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        90,
+        90
+      ],
+      "_id": "MtnsNRes00000090",
+      "name": "A Fimir group (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        91
+      ],
+      "_id": "MtnsNRes00000091",
+      "name": "A Fimir warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        92,
+        92
+      ],
+      "_id": "MtnsNRes00000092",
+      "name": "An ancient mountain spirit (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        93
+      ],
+      "_id": "MtnsNRes00000093",
+      "name": "A mountain daemon (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        94,
+        94
+      ],
+      "_id": "MtnsNRes00000094",
+      "name": "A mountain dragon brood (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        95,
+        95
+      ],
+      "_id": "MtnsNRes00000095",
+      "name": "A greater mountain horror (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        96,
+        96
+      ],
+      "_id": "MtnsNRes00000096",
+      "name": "A stone dryad (Medium, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        97
+      ],
+      "_id": "MtnsNRes00000097",
+      "name": "A snow daemon (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        98,
+        98
+      ],
+      "_id": "MtnsNRes00000098",
+      "name": "A shadow beast (Large, Hostile, Stealthy)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        99
+      ],
+      "_id": "MtnsNRes00000099",
+      "name": "An undead warband (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "_id": "MtnsNRes00000100",
+      "name": "A mountain titan (Large, Hostile, Obvious)",
+      "img": "icons/svg/d10-grey.svg",
+      "description": "",
+      "drawn": false,
+      "documentUuid": null
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "formula": "1d100"
+}
